@@ -1,0 +1,24 @@
+
+/* Heading / Overskrift 1 */
+h1 {
+  /* Farger - RGBa får utslag, RGB hvis inkompatibel med nettleser */
+  color: rgb(2, 93, 140);
+  color: rgba(2, 93, 140, 0.7);
+  background-color: rgba(2, 127, 180, 0.4);
+  /* Font - Garmond får utslag, Serif hvis Garmond er inkompatibel med browser */
+  font-family: Garmond, serif;
+  font-weight: 100;
+  font-style: oblique;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+#ID-text {
+  text-align: center;
+}
